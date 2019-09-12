@@ -12,6 +12,9 @@
 		4674E0AD2326F8AB00931FB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4674E0AB2326F8AB00931FB5 /* Main.storyboard */; };
 		4674E0AF2326F8AB00931FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4674E0AE2326F8AB00931FB5 /* Assets.xcassets */; };
 		4674E0B22326F8AB00931FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4674E0B02326F8AB00931FB5 /* LaunchScreen.storyboard */; };
+		4674E0BA2326F8FB00931FB5 /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4674E0B92326F8FB00931FB5 /* Drinks.swift */; };
+		4674E0BC2326F91A00931FB5 /* Ingredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4674E0BB2326F91A00931FB5 /* Ingredients.swift */; };
+		4674E0BE2326F95000931FB5 /* CoffeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4674E0BD2326F95000931FB5 /* CoffeMachine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		4674E0AE2326F8AB00931FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4674E0B12326F8AB00931FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4674E0B32326F8AB00931FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4674E0B92326F8FB00931FB5 /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
+		4674E0BB2326F91A00931FB5 /* Ingredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredients.swift; sourceTree = "<group>"; };
+		4674E0BD2326F95000931FB5 /* CoffeMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				4674E0A72326F8AB00931FB5 /* AppDelegate.swift */,
 				4674E0A92326F8AB00931FB5 /* ViewController.swift */,
+				4674E0BB2326F91A00931FB5 /* Ingredients.swift */,
+				4674E0B92326F8FB00931FB5 /* Drinks.swift */,
+				4674E0BD2326F95000931FB5 /* CoffeMachine.swift */,
 				4674E0AB2326F8AB00931FB5 /* Main.storyboard */,
 				4674E0AE2326F8AB00931FB5 /* Assets.xcassets */,
 				4674E0B02326F8AB00931FB5 /* LaunchScreen.storyboard */,
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4674E0BC2326F91A00931FB5 /* Ingredients.swift in Sources */,
+				4674E0BA2326F8FB00931FB5 /* Drinks.swift in Sources */,
 				4674E0AA2326F8AB00931FB5 /* ViewController.swift in Sources */,
+				4674E0BE2326F95000931FB5 /* CoffeMachine.swift in Sources */,
 				4674E0A82326F8AB00931FB5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
